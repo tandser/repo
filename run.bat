@@ -3,6 +3,6 @@
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 @echo off
 
-set MAVEN_OPTS=-Xms256m -Xmx2G
+set MAVEN_OPTS=-Xms256m -Xmx1G
 
 mvn clean install alfresco:run
